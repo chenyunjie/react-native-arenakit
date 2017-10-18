@@ -22,7 +22,11 @@ const Arena = {
             onFailed("400", "参数必须包含method方法");
         }
 
-        NativeModules.ReactNativeApi.execute(parameters).then(onSuccess).failed(onFailed);
+        if (NativeModules.ReactNativeApi) {
+            NativeModules.ReactNativeApi.execute(parameters).then(onSuccess).failed(onFailed);
+        } else {
+            onFailed("404", "未能找到容器");
+        }
     }
 };
 

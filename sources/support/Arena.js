@@ -23,7 +23,7 @@ const Arena = {
         }
 
         if (NativeModules.ReactNativeApi) {
-            NativeModules.ReactNativeApi.execute(parameters).then(onSuccess).failed(onFailed);
+            NativeModules.ReactNativeApi.execute(parameters).then(onSuccess, onFailed);
         } else {
             onFailed("404", "未能找到容器");
         }

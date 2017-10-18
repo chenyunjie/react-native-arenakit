@@ -1,0 +1,23 @@
+{
+  "name": "react-native-arenakit",
+  "version": "0.0.1",
+  "description": "为编写arena app中react native应用提供基础的ui及原生能力api支撑",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyunjie/react-native-arenakit.git"
+  },
+  "keywords": [
+    "arena",
+    "组件"
+  ],
+  "author": "陈云杰",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenyunjie/react-native-arenakit/issues"
+  },
+  "homepage": "https://github.com/chenyunjie/react-native-arenakit#readme"
+}

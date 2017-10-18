@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/chenyunjie/react-native-arenakit.git"
   },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-native": "0.48.3"
+  },
   "keywords": [
     "arena",
     "组件"

@@ -30,4 +30,4 @@ const Arena = {
     }
 };
 
-modules.export = Arena;
+module.exports = Arena;

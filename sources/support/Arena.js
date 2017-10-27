@@ -1,4 +1,6 @@
-import {NativeModules} from 'react-native';
+import {NativeModules, Platform} from 'react-native';
+
+import AndroidApiMap from './android-api-map';
 
 //提供arena容器通讯能力
 const Arena = {
@@ -22,12 +24,51 @@ const Arena = {
             onFailed("400", "参数必须包含method方法");
         }
 
-        if (NativeModules.ReactNativeApi) {
-            NativeModules.ReactNativeApi.execute(parameters).then(onSuccess, onFailed);
+        if (Platform.OS === 'ios') {
+            if (NativeModules.ReactNativeApi) {
+                NativeModules.ReactNativeApi.execute(parameters).then(onSuccess, onFailed);
+            } else {
+                onFailed("404", "未能找到容器");
+            }
         } else {
-            onFailed("404", "未能找到容器");
+            let nativeApi = AndroidApiMap[parameters['method']];
+
+            if (nativeApi) {
+                let executionMethod = getObjectByPath(nativeApi, NativeModules);
+                if (executionMethod) {
+                    executionMethod.apply(parameters);
+                }
+            }
         }
+    },
+
+    /**
+     * 打开某个微应用
+     *
+     * @param uri
+     * @param parameters
+     */
+    open: (uri, parameters) => {
+        Arena.invoke({method: 'arena.extra.openUri', params:{uri: uri}})
     }
 };
+
+//根据属性路径获取对象路径上的属性值
+function getObjectByPath(path, target) {
+
+    let paths = path.split('\.');
+
+    let result = target;
+    for (let i=0; i<paths.length; i++) {
+        let p = paths[i];
+        if (result.hasOwnProperty(p)) {
+            result = result[p];
+        } else {
+            result = null;
+        }
+    }
+
+    return result;
+}
 
 module.exports = Arena;

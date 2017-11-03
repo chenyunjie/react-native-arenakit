@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:id="@+id/pickerViewAloneLayout"
+    android:layout_height="match_parent">
+
+</LinearLayout><!-- From: file:/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/layout/picker_view_alone.xml --><!-- From: file:/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/bundles/debug/res/layout/picker_view_alone.xml -->

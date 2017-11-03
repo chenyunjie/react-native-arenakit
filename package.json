@@ -1,6 +1,6 @@
 {
   "name": "react-native-arenakit",
-  "version": "0.0.7",
+  "version": "0.0.15",
   "description": "为编写arena app中react native应用提供基础的ui及原生能力api支撑",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res"><file name="picker_enter" path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/anim/picker_enter.xml" qualifiers="" type="anim"/><file name="picker_exit" path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/anim/picker_exit.xml" qualifiers="" type="anim"/><file name="picker_view" path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/layout/picker_view.xml" qualifiers="" type="layout"/><file name="picker_view_alone" path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/layout/picker_view_alone.xml" qualifiers="" type="layout"/><file name="picker_view_linkage" path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/layout/picker_view_linkage.xml" qualifiers="" type="layout"/><file path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">react-native-arena-kit</string></file><file path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/values/styles.xml" qualifiers=""><style name="PickerAnim">
+        <item name="android:windowEnterAnimation">@anim/picker_enter</item>
+        <item name="android:windowExitAnimation">@anim/picker_exit</item>
+    </style><style name="Dialog_Full_Screen">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PickerAnim</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style></file></source><source path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/generated/res/rs/debug"/><source path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug"><source path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/debug/res"/></dataSet><mergedItems/></merger>

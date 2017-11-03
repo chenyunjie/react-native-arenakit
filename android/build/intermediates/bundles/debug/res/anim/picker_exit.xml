@@ -8,4 +8,4 @@
         android:toXDelta="0"
         android:toYDelta="100%" />
 
-</set><!-- From: file:/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/anim/picker_exit.xml -->
+</set>

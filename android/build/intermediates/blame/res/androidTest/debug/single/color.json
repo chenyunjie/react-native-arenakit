@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/abc_search_url_text.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/color/abc_secondary_text_material_light.xml"
+    }
+]

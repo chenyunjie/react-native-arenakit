@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C4D2E4AE20B72F707322628 /* libPods-RNArenaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF81D9C3A324566E092A69D /* libPods-RNArenaKit.a */; };
 		5E8526011FABFFC800AF038A /* RCTArenaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8525FE1FABFFC800AF038A /* RCTArenaPicker.m */; };
 		5E8526021FABFFC800AF038A /* RCTArenaPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8526001FABFFC800AF038A /* RCTArenaPickerManager.m */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,9 @@
 		5E8525FE1FABFFC800AF038A /* RCTArenaPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTArenaPicker.m; sourceTree = "<group>"; };
 		5E8525FF1FABFFC800AF038A /* RCTArenaPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTArenaPickerManager.h; sourceTree = "<group>"; };
 		5E8526001FABFFC800AF038A /* RCTArenaPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTArenaPickerManager.m; sourceTree = "<group>"; };
+		66F30AB666E9FF234F700ECF /* Pods-RNArenaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNArenaKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNArenaKit/Pods-RNArenaKit.debug.xcconfig"; sourceTree = "<group>"; };
+		6BF81D9C3A324566E092A69D /* libPods-RNArenaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNArenaKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6B8FCB48D1156E1E44C39B /* Pods-RNArenaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNArenaKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNArenaKit/Pods-RNArenaKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4D2E4AE20B72F707322628 /* libPods-RNArenaKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,11 +55,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		371F3E575E60D784E92FECAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF81D9C3A324566E092A69D /* libPods-RNArenaKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C43D0F6D4DB0001FA0F11C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66F30AB666E9FF234F700ECF /* Pods-RNArenaKit.debug.xcconfig */,
+				BC6B8FCB48D1156E1E44C39B /* Pods-RNArenaKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
 				5E8525FC1FABFFC800AF038A /* RCTPicker */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				4C43D0F6D4DB0001FA0F11C9 /* Pods */,
+				371F3E575E60D784E92FECAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNArenaKit" */;
 			buildPhases = (
+				B19A691CB174D7E24A58613F /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
+				88E13F26C27AB917DF3A11F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -119,6 +145,42 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88E13F26C27AB917DF3A11F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNArenaKit/Pods-RNArenaKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19A691CB174D7E24A58613F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNArenaKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -216,6 +278,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F30AB666E9FF234F700ECF /* Pods-RNArenaKit.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -232,6 +295,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6B8FCB48D1156E1E44C39B /* Pods-RNArenaKit.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/values-w480dp/values-w480dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 61,
+                        "endOffset": 339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/Users/chenyunjie/.android/build-cache/b006dd8b25c4c7dd269562b2676d2c5812bf3e0d/output/res/values-w480dp/values-w480dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 572,
+                        "endColumn": 71,
+                        "endOffset": 639
+                    }
+                }
+            }
+        ]
+    }
+]

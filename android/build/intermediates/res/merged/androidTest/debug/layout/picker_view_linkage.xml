@@ -21,4 +21,4 @@
         android:layout_weight="1.0"
         android:layout_height="match_parent" />
 
-</LinearLayout><!-- From: file:/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/layout/picker_view_linkage.xml --><!-- From: file:/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/bundles/debug/res/layout/picker_view_linkage.xml -->
+</LinearLayout>

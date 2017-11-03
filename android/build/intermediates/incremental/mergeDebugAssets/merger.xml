@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/assets"/><source path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/debug/assets"/></dataSet></merger>

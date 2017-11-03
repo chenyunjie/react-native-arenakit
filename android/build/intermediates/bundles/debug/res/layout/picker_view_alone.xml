@@ -4,4 +4,4 @@
     android:id="@+id/pickerViewAloneLayout"
     android:layout_height="match_parent">
 
-</LinearLayout><!-- From: file:/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/layout/picker_view_alone.xml -->
+</LinearLayout>

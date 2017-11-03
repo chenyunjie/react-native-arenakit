@@ -7,4 +7,4 @@
         android:fromYDelta="100%"
         android:toXDelta="0"
         android:toYDelta="0" />
-</set><!-- From: file:/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/src/main/res/anim/picker_enter.xml --><!-- From: file:/Users/chenyunjie/workspace/code/git.dev.qianmi.com/react-native-arenakit/android/build/intermediates/bundles/debug/res/anim/picker_enter.xml -->
+</set>

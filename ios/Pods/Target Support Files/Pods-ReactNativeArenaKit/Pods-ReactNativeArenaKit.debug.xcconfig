@@ -1,9 +1,9 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BuddyBuildSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BuddyBuildSDK" "${PODS_ROOT}/Headers/Public/React" "${PODS_ROOT}/Headers/Public/Yoga"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/React-iOS8.0" "$PODS_CONFIGURATION_BUILD_DIR/Yoga-iOS8.0"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/React-iOS11.1" "$PODS_CONFIGURATION_BUILD_DIR/Yoga-iOS11.1"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BuddyBuildSDK" -isystem "${PODS_ROOT}/Headers/Public/React" -isystem "${PODS_ROOT}/Headers/Public/Yoga"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"React-iOS8.0" -l"Yoga-iOS8.0" -l"stdc++" -framework "AVFoundation" -framework "BuddyBuildSDK" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreText" -framework "CoreVideo" -framework "JavaScriptCore" -framework "SystemConfiguration"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"React-iOS11.1" -l"Yoga-iOS11.1" -l"stdc++" -framework "AVFoundation" -framework "BuddyBuildSDK" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreText" -framework "CoreVideo" -framework "JavaScriptCore" -framework "SystemConfiguration"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

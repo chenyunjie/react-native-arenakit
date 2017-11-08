@@ -2,7 +2,7 @@
  * Created by dingle on 2017/9/22.
  */
 
-import React, {Component, PropTypes,PureComponent}from 'react';
+import React, {PureComponent}from 'react';
 
 import {
     View,
@@ -10,6 +10,7 @@ import {
 
 } from 'react-native';
 
+import PropTypes from 'prop-types';
 import moment from 'moment'
 
 import DLPicker from './dlPicker'

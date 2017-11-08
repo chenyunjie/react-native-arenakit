@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4A96D53A5F479614D0CF2741A37FC72E'
-               BlueprintName = 'Pods-RNArenaKit'
+               BlueprintIdentifier = 'B9BEE63D09594885D91075CD0BAD04BB'
+               BlueprintName = 'Yoga-iOS8.0'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-RNArenaKit.a'>
+               BuildableName = 'libYoga-iOS8.0.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -7,8 +7,6 @@ import {View, Text} from 'react-native';
 
 import DLPicker from './dlPicker'
 
-import Device from '../device';
-
 export default class TimePeriodPicker extends PureComponent {
 
     constructor(props) {

@@ -1,7 +1,7 @@
 /**
  * Created by dingle on 2017/4/1.
  */
-import React, {Component, PropTypes,PureComponent}from 'react';
+import React, {PureComponent}from 'react';
 
 import {
     View,
@@ -9,6 +9,7 @@ import {
 
 } from 'react-native';
 
+import PropTypes from 'prop-types';
 import DLPicker from './dlPicker'
 import moment from 'moment'
 

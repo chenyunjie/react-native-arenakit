@@ -1,18 +1,18 @@
 /**
  * Created by dingle on 2017/3/31.
  */
-import React, {Component, PropTypes, PureComponent}from 'react';
+import React, {PureComponent}from 'react';
 
 import {
     View,
     StyleSheet,
     Text,
-    Image,
-    TouchableOpacity,
     ScrollView,
     InteractionManager,
     Platform
 } from 'react-native';
+
+import PropTypes from 'prop-types';
 
 
 class DLPicker extends PureComponent {

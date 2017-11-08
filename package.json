@@ -1,6 +1,6 @@
 {
   "name": "react-native-arenakit",
-  "version": "0.0.18",
+  "version": "0.0.25",
   "description": "为编写arena app中react native应用提供基础的ui及原生能力api支撑",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,10 @@
     "url": "git+https://github.com/chenyunjie/react-native-arenakit.git"
   },
   "dependencies": {
+    "moment": "^2.19.1",
     "react": "^16.0.0",
     "react-native": "0.48.3",
+    "react-native-root-siblings": "^2.1.1",
     "react-native-swiper": "^1.5.13"
   },
   "keywords": [

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9161FA638D3634FC22CAFC2F37116E58'
-               BlueprintName = 'React'
+               BlueprintIdentifier = '2F4EDC55808DD45DFC77EA35A44B5B6B'
+               BlueprintName = 'Pods-ReactNativeArenaKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libReact.a'>
+               BuildableName = 'libPods-ReactNativeArenaKit.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4A96D53A5F479614D0CF2741A37FC72E'
-               BlueprintName = 'Pods-RNArenaKit'
+               BlueprintIdentifier = '28409E2963BA263254F10082BD95BA25'
+               BlueprintName = 'React-iOS8.0'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-RNArenaKit.a'>
+               BuildableName = 'libReact-iOS8.0.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

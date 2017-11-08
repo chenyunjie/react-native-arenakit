@@ -6,10 +6,45 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5E468CEA1FB2E5410015ABB4 /* RNArenaKitBuilder */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5E468CEB1FB2E5410015ABB4 /* Build configuration list for PBXAggregateTarget "RNArenaKitBuilder" */;
+			buildPhases = (
+				5E468CEE1FB2E5540015ABB4 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = RNArenaKitBuilder;
+			productName = RNArenaKitBuilder;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		5C4D2E4AE20B72F707322628 /* libPods-RNArenaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF81D9C3A324566E092A69D /* libPods-RNArenaKit.a */; };
-		5E8526011FABFFC800AF038A /* RCTArenaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8525FE1FABFFC800AF038A /* RCTArenaPicker.m */; };
-		5E8526021FABFFC800AF038A /* RCTArenaPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8526001FABFFC800AF038A /* RCTArenaPickerManager.m */; };
+		5E468CF01FB2EB9F0015ABB4 /* UIViewController+Controller.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2581FAFFACA00B49CB9 /* UIViewController+Controller.h */; };
+		5E468CF11FB2EB9F0015ABB4 /* UIViewController+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2591FAFFACA00B49CB9 /* UIViewController+Controller.m */; };
+		5E468CF21FB2EB9F0015ABB4 /* ArenaRuntime.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B23F1FAF12D100B49CB9 /* ArenaRuntime.h */; };
+		5E468CF31FB2EB9F0015ABB4 /* ArenaRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2401FAF12D100B49CB9 /* ArenaRuntime.m */; };
+		5E468CF41FB2EB9F0015ABB4 /* Message.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2421FAFF38D00B49CB9 /* Message.h */; };
+		5E468CF51FB2EB9F0015ABB4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2431FAFF38D00B49CB9 /* Message.m */; };
+		5E468CF61FB2EB9F0015ABB4 /* Router.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2451FAFF39B00B49CB9 /* Router.h */; };
+		5E468CF71FB2EB9F0015ABB4 /* ReactNativeViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2481FAFF3D700B49CB9 /* ReactNativeViewController.h */; };
+		5E468CF81FB2EB9F0015ABB4 /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2491FAFF3D700B49CB9 /* ReactNativeViewController.m */; };
+		5E468CF91FB2EB9F0015ABB4 /* WKWebViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B24B1FAFF3F000B49CB9 /* WKWebViewController.h */; };
+		5E468CFA1FB2EB9F0015ABB4 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B24C1FAFF3F000B49CB9 /* WKWebViewController.m */; };
+		5E468CFB1FB2EB9F0015ABB4 /* Resource.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B24E1FAFF43C00B49CB9 /* Resource.h */; };
+		5E468CFC1FB2EB9F0015ABB4 /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B24F1FAFF43C00B49CB9 /* Resource.m */; };
+		5E468CFD1FB2EB9F0015ABB4 /* App.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B25B1FB049F000B49CB9 /* App.h */; };
+		5E468CFE1FB2EB9F0015ABB4 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B25C1FB049F000B49CB9 /* App.m */; };
+		5E468E7C1FB2F3B00015ABB4 /* RCTArenaPicker.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E8525FD1FABFFC800AF038A /* RCTArenaPicker.h */; };
+		5E468E7D1FB2F3B00015ABB4 /* RCTArenaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8525FE1FABFFC800AF038A /* RCTArenaPicker.m */; };
+		5E468E7E1FB2F3B00015ABB4 /* RCTArenaPickerManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E8525FF1FABFFC800AF038A /* RCTArenaPickerManager.h */; };
+		5E468E7F1FB2F3B00015ABB4 /* RCTArenaPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8526001FABFFC800AF038A /* RCTArenaPickerManager.m */; };
+		5E468F0F1FB2FBD30015ABB4 /* RCTArenaPicker.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E8525FD1FABFFC800AF038A /* RCTArenaPicker.h */; };
+		5E468F101FB2FBD30015ABB4 /* RCTArenaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8525FE1FABFFC800AF038A /* RCTArenaPicker.m */; };
+		5E468F111FB2FBD30015ABB4 /* RCTArenaPickerManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E8525FF1FABFFC800AF038A /* RCTArenaPickerManager.h */; };
+		5E468F121FB2FBD30015ABB4 /* RCTArenaPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8526001FABFFC800AF038A /* RCTArenaPickerManager.m */; };
+		5E84B2471FAFF39B00B49CB9 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E84B2461FAFF39B00B49CB9 /* Router.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,10 +57,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E468F041FB2FBA80015ABB4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNArenaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNArenaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CB347080EBD1E39C50B17F /* Pods-ReactNativeArenaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeArenaKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeArenaKit/Pods-ReactNativeArenaKit.debug.xcconfig"; sourceTree = "<group>"; };
+		5E468CEF1FB2E83D0015ABB4 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		5E468EFD1FB2F9F90015ABB4 /* libPods-RNArenaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-RNArenaKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E468F001FB2FA070015ABB4 /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E468F011FB2FA070015ABB4 /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E468F061FB2FBA80015ABB4 /* libReactNativeArenaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeArenaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E468F141FB2FC180015ABB4 /* libPods-RNArenaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-RNArenaKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E84B23F1FAF12D100B49CB9 /* ArenaRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArenaRuntime.h; sourceTree = "<group>"; };
+		5E84B2401FAF12D100B49CB9 /* ArenaRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArenaRuntime.m; sourceTree = "<group>"; };
+		5E84B2421FAFF38D00B49CB9 /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		5E84B2431FAFF38D00B49CB9 /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		5E84B2451FAFF39B00B49CB9 /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		5E84B2461FAFF39B00B49CB9 /* Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		5E84B2481FAFF3D700B49CB9 /* ReactNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeViewController.h; sourceTree = "<group>"; };
+		5E84B2491FAFF3D700B49CB9 /* ReactNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeViewController.m; sourceTree = "<group>"; };
+		5E84B24B1FAFF3F000B49CB9 /* WKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		5E84B24C1FAFF3F000B49CB9 /* WKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		5E84B24E1FAFF43C00B49CB9 /* Resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		5E84B24F1FAFF43C00B49CB9 /* Resource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resource.m; sourceTree = "<group>"; };
+		5E84B2581FAFFACA00B49CB9 /* UIViewController+Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Controller.h"; sourceTree = "<group>"; };
+		5E84B2591FAFFACA00B49CB9 /* UIViewController+Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Controller.m"; sourceTree = "<group>"; };
+		5E84B25B1FB049F000B49CB9 /* App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		5E84B25C1FB049F000B49CB9 /* App.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
 		5E8525FD1FABFFC800AF038A /* RCTArenaPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTArenaPicker.h; sourceTree = "<group>"; };
 		5E8525FE1FABFFC800AF038A /* RCTArenaPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTArenaPicker.m; sourceTree = "<group>"; };
 		5E8525FF1FABFFC800AF038A /* RCTArenaPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTArenaPickerManager.h; sourceTree = "<group>"; };
@@ -33,6 +100,8 @@
 		66F30AB666E9FF234F700ECF /* Pods-RNArenaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNArenaKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNArenaKit/Pods-RNArenaKit.debug.xcconfig"; sourceTree = "<group>"; };
 		6BF81D9C3A324566E092A69D /* libPods-RNArenaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNArenaKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6B8FCB48D1156E1E44C39B /* Pods-RNArenaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNArenaKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNArenaKit/Pods-RNArenaKit.release.xcconfig"; sourceTree = "<group>"; };
+		CBD500DC2808E09816A6828B /* Pods-ReactNativeArenaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeArenaKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeArenaKit/Pods-ReactNativeArenaKit.release.xcconfig"; sourceTree = "<group>"; };
+		FBC3BFB5AE45624A0017250E /* libPods-ReactNativeArenaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeArenaKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +109,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C4D2E4AE20B72F707322628 /* libPods-RNArenaKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E468F031FB2FBA80015ABB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +133,12 @@
 		371F3E575E60D784E92FECAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E468F141FB2FC180015ABB4 /* libPods-RNArenaKit.a */,
+				5E468F001FB2FA070015ABB4 /* libReact.a */,
+				5E468F011FB2FA070015ABB4 /* libYoga.a */,
+				5E468EFD1FB2F9F90015ABB4 /* libPods-RNArenaKit.a */,
 				6BF81D9C3A324566E092A69D /* libPods-RNArenaKit.a */,
+				FBC3BFB5AE45624A0017250E /* libPods-ReactNativeArenaKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -68,6 +148,8 @@
 			children = (
 				66F30AB666E9FF234F700ECF /* Pods-RNArenaKit.debug.xcconfig */,
 				BC6B8FCB48D1156E1E44C39B /* Pods-RNArenaKit.release.xcconfig */,
+				23CB347080EBD1E39C50B17F /* Pods-ReactNativeArenaKit.debug.xcconfig */,
+				CBD500DC2808E09816A6828B /* Pods-ReactNativeArenaKit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -75,11 +157,45 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				5E468CEF1FB2E83D0015ABB4 /* build.sh */,
+				5E84B23E1FAF129C00B49CB9 /* runtime */,
 				5E8525FC1FABFFC800AF038A /* RCTPicker */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				4C43D0F6D4DB0001FA0F11C9 /* Pods */,
 				371F3E575E60D784E92FECAD /* Frameworks */,
+				5E468F061FB2FBA80015ABB4 /* libReactNativeArenaKit.a */,
 			);
+			sourceTree = "<group>";
+		};
+		5E84B23E1FAF129C00B49CB9 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				5E84B2511FAFF56000B49CB9 /* category */,
+				5E84B23F1FAF12D100B49CB9 /* ArenaRuntime.h */,
+				5E84B2401FAF12D100B49CB9 /* ArenaRuntime.m */,
+				5E84B2421FAFF38D00B49CB9 /* Message.h */,
+				5E84B2431FAFF38D00B49CB9 /* Message.m */,
+				5E84B2451FAFF39B00B49CB9 /* Router.h */,
+				5E84B2461FAFF39B00B49CB9 /* Router.m */,
+				5E84B2481FAFF3D700B49CB9 /* ReactNativeViewController.h */,
+				5E84B2491FAFF3D700B49CB9 /* ReactNativeViewController.m */,
+				5E84B24B1FAFF3F000B49CB9 /* WKWebViewController.h */,
+				5E84B24C1FAFF3F000B49CB9 /* WKWebViewController.m */,
+				5E84B24E1FAFF43C00B49CB9 /* Resource.h */,
+				5E84B24F1FAFF43C00B49CB9 /* Resource.m */,
+				5E84B25B1FB049F000B49CB9 /* App.h */,
+				5E84B25C1FB049F000B49CB9 /* App.m */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		5E84B2511FAFF56000B49CB9 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				5E84B2581FAFFACA00B49CB9 /* UIViewController+Controller.h */,
+				5E84B2591FAFFACA00B49CB9 /* UIViewController+Controller.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 		5E8525FC1FABFFC800AF038A /* RCTPicker */ = {
@@ -115,6 +231,25 @@
 			productReference = 134814201AA4EA6300B7C361 /* libRNArenaKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		5E468F051FB2FBA80015ABB4 /* ReactNativeArenaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E468F0C1FB2FBA80015ABB4 /* Build configuration list for PBXNativeTarget "ReactNativeArenaKit" */;
+			buildPhases = (
+				854127AB4E89B9A511F41C20 /* [CP] Check Pods Manifest.lock */,
+				5E468F021FB2FBA80015ABB4 /* Sources */,
+				5E468F031FB2FBA80015ABB4 /* Frameworks */,
+				5E468F041FB2FBA80015ABB4 /* CopyFiles */,
+				77141A11399A30D8405F71D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeArenaKit;
+			productName = ReactNativeArenaKit;
+			productReference = 5E468F061FB2FBA80015ABB4 /* libReactNativeArenaKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,6 +261,16 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+					};
+					5E468CEA1FB2E5410015ABB4 = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = 26429T4LED;
+						ProvisioningStyle = Automatic;
+					};
+					5E468F051FB2FBA80015ABB4 = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = 26429T4LED;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -142,11 +287,59 @@
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNArenaKit */,
+				5E468CEA1FB2E5410015ABB4 /* RNArenaKitBuilder */,
+				5E468F051FB2FBA80015ABB4 /* ReactNativeArenaKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5E468CEE1FB2E5540015ABB4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./build.sh\n";
+		};
+		77141A11399A30D8405F71D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeArenaKit/Pods-ReactNativeArenaKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		854127AB4E89B9A511F41C20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeArenaKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		88E13F26C27AB917DF3A11F8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,8 +380,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E8526021FABFFC800AF038A /* RCTArenaPickerManager.m in Sources */,
-				5E8526011FABFFC800AF038A /* RCTArenaPicker.m in Sources */,
+				5E468E7C1FB2F3B00015ABB4 /* RCTArenaPicker.h in Sources */,
+				5E468E7D1FB2F3B00015ABB4 /* RCTArenaPicker.m in Sources */,
+				5E468E7E1FB2F3B00015ABB4 /* RCTArenaPickerManager.h in Sources */,
+				5E468E7F1FB2F3B00015ABB4 /* RCTArenaPickerManager.m in Sources */,
+				5E468CF01FB2EB9F0015ABB4 /* UIViewController+Controller.h in Sources */,
+				5E468CF11FB2EB9F0015ABB4 /* UIViewController+Controller.m in Sources */,
+				5E468CF21FB2EB9F0015ABB4 /* ArenaRuntime.h in Sources */,
+				5E468CF31FB2EB9F0015ABB4 /* ArenaRuntime.m in Sources */,
+				5E468CF41FB2EB9F0015ABB4 /* Message.h in Sources */,
+				5E468CF51FB2EB9F0015ABB4 /* Message.m in Sources */,
+				5E468CF61FB2EB9F0015ABB4 /* Router.h in Sources */,
+				5E468CF71FB2EB9F0015ABB4 /* ReactNativeViewController.h in Sources */,
+				5E468CF81FB2EB9F0015ABB4 /* ReactNativeViewController.m in Sources */,
+				5E468CF91FB2EB9F0015ABB4 /* WKWebViewController.h in Sources */,
+				5E468CFA1FB2EB9F0015ABB4 /* WKWebViewController.m in Sources */,
+				5E468CFB1FB2EB9F0015ABB4 /* Resource.h in Sources */,
+				5E468CFC1FB2EB9F0015ABB4 /* Resource.m in Sources */,
+				5E468CFD1FB2EB9F0015ABB4 /* App.h in Sources */,
+				5E468CFE1FB2EB9F0015ABB4 /* App.m in Sources */,
+				5E84B2471FAFF39B00B49CB9 /* Router.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E468F021FB2FBA80015ABB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E468F0F1FB2FBD30015ABB4 /* RCTArenaPicker.h in Sources */,
+				5E468F101FB2FBD30015ABB4 /* RCTArenaPicker.m in Sources */,
+				5E468F111FB2FBD30015ABB4 /* RCTArenaPickerManager.h in Sources */,
+				5E468F121FB2FBD30015ABB4 /* RCTArenaPickerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +532,93 @@
 			};
 			name = Release;
 		};
+		5E468CEC1FB2E5410015ABB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26429T4LED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E468CED1FB2E5410015ABB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26429T4LED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E468F0D1FB2FBA80015ABB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23CB347080EBD1E39C50B17F /* Pods-ReactNativeArenaKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 26429T4LED;
+				FRAMEWORK_SEARCH_PATHS = "\"${PODS_ROOT}/BuddyBuildSDK\"";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../React",
+					"$(SRCROOT)/../../react-native/React",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E468F0E1FB2FBA80015ABB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD500DC2808E09816A6828B /* Pods-ReactNativeArenaKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 26429T4LED;
+				FRAMEWORK_SEARCH_PATHS = "\"${PODS_ROOT}/BuddyBuildSDK\"";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../React",
+					"$(SRCROOT)/../../react-native/React",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +636,24 @@
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
 				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E468CEB1FB2E5410015ABB4 /* Build configuration list for PBXAggregateTarget "RNArenaKitBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E468CEC1FB2E5410015ABB4 /* Debug */,
+				5E468CED1FB2E5410015ABB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E468F0C1FB2FBA80015ABB4 /* Build configuration list for PBXNativeTarget "ReactNativeArenaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E468F0D1FB2FBA80015ABB4 /* Debug */,
+				5E468F0E1FB2FBA80015ABB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

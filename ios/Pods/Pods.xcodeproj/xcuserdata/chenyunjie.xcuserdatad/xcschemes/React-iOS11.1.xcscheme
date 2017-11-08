@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2FA2B68028425E87E532F40F0A46D4D6'
-               BlueprintName = 'Yoga'
+               BlueprintIdentifier = '279F1348381CF286599022E6E47AA0DA'
+               BlueprintName = 'React-iOS11.1'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libYoga.a'>
+               BuildableName = 'libReact-iOS11.1.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
